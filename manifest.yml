@@ -1,0 +1,8 @@
+applications:
+- path: .
+  name: rfihelper
+  buildpack: sdk-for-nodejs
+  memory: 512M
+  instances: 1
+  random-route: false
+  disk_quota: 1024M
